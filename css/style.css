@@ -56,7 +56,6 @@ header{
 
 /* Jumbotron */
 .jumbotron{
-
     margin: 0 10%;
     display:flex;
     flex-direction: column;
@@ -99,18 +98,125 @@ h1{
     bottom: -70px;
     
 }
-.fa-solid{
+.fa-arrow-down{
     font-size: 35px;
     padding:2% 0;
     color:#000;
 }
 
 
+/* Main - prezzario*/
 
+#offerte{
+    margin: 5% 15%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+#costi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
+#business{
+    text-align: center;
 
+}
 
+#fatturazione{
+    margin: 3% 0;
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+#fatturazione li{
+    margin-left: 10px;
+}
+.fa-circle{
+    color:cornflowerblue;
+    font-weight:500;
+}
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.element{
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 5px 25px;
+    padding: 5px 0;
+    line-height: 200%;
+}
+
+.element sub{
+    line-height: 95%;
+}
+
+.element li{
+    list-style: none;
+}
+
+.element ul{
+    margin: 10px 5px;
+}
+
+.tabtop{
+    border-bottom: 1px solid black;
+    width:100%;
+    height:auto;
+    padding:5px 0;
+    text-align: center;
+}
+.direct{
+    font-size: 14px;
+
+}
+
+.noprice{   
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 43px;
+}
+
+.fa-check{
+    color:cornflowerblue;
+    font-size: 18px;
+}
+
+#unique{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3%;
+}
+
+#descr{
+    flex-basis: 50%;
+}
+.dettagli{
+    margin-left: 5%;
+}
+
+hr{
+    width: 40px;
+    color:gray;
+    background-color: gray;
+    font-size: 30;
+}
 
 
 
@@ -125,7 +231,7 @@ h1{
     padding:2% 3%;
 }
 
-.button.blue{
+.blue{
     font-size: 18px;
     background-color: rgb(60, 60, 226);
 }
@@ -134,4 +240,10 @@ h1{
     background-color: dodgerblue;
     box-shadow: 2px px dodgerblue;
 
+}
+.small{
+    font-size: 18px;
+    flex-wrap: nowrap;
+    align-self: flex-start;
+    padding: 1% 2%;
 }
