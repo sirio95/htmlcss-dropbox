@@ -218,8 +218,30 @@ hr{
     font-size: 30;
 }
 
+/* Trova un partner */
+.partnership{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+}
 
-
+#partner{
+    flex-basis: 45%;
+    width: 50%;
+    height:auto;
+}
+.descr{
+    height:440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    line-height:150%;
+    margin: 0 10%;
+}
+.descr h3{
+    font-size: 24px;
+}
 
 
 
@@ -238,7 +260,7 @@ hr{
 
 .button.blue:hover{
     background-color: dodgerblue;
-    box-shadow: 2px px dodgerblue;
+    box-shadow: 2px 2px dodgerblue;
 
 }
 .small{
@@ -246,4 +268,12 @@ hr{
     flex-wrap: nowrap;
     align-self: flex-start;
     padding: 1% 2%;
+}
+.empty{
+    border: 2px solid gray;
+    color:#000;
+}
+.empty:hover{
+    background-color: lightgrey;
+    box-shadow: 2px 2px lightgray ;
 }
